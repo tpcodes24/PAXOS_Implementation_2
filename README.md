@@ -1,17 +1,6 @@
 
-## Project Overview
-In this assignment, you'll implement Paxos, specifically single-decree paxos.
-You just need to fill in the necessary parts in `src/paxos/paxos.go` to make 
-sure Paxos works correctly. The communication among peers is based on rpc, 
-which is also provided in the template (`call()`).
 
-**Please read all the comments in paxos.go carefully, and please DO NOT change
-any default skeleton codes**
-
-You are free to add your own members in the `Paxos` struct and your own
-functions.
-
-You must implement the interfaces listed below
+Interfaces Implemented.
 ```
 px = paxos.Make(peers []string, me int) // constructor
 px.Start(seq int, v interface{}) // start agreement on new instance
